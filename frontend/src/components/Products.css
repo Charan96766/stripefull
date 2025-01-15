@@ -1,0 +1,166 @@
+.products-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.products-header {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.prices-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.price-card {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.price-text {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+  background-color: #218838;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #777;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #e74c3c;
+}
+
+.no-products {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.quantity-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.quantity-button:hover {
+  background-color: #0056b3;
+}
+
+.quantity-value {
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.prices-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.price-card {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.price-text {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+  background-color: #218838;
+}
